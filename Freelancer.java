@@ -10,7 +10,7 @@ public class Freelancer implements Funcionario{
 	
 	public Freelancer() {}
 	
-	public Freelancer (String nome, float valorHoraTrabalho, float comissao) {
+	public Freelancer (String nome, float valorHoraTrabalho, long CNPJ) {
 		this.nome = nome;
 		this.valorHoraTrabalho = valorHoraTrabalho;
 		this.CNPJ = CNPJ;
